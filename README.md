@@ -1,16 +1,16 @@
-## Hi there 👋
+### 👋 Hi there, I'm Sushma Vaddepally
+💻 Software Developer | Java • Spring Boot • React.js | REST APIs | Full-Stack
 
-<!--
-**SushmaVaddepally04/SushmaVaddepally04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 I'm a Computer Science graduate passionate about backend development and clean code.  
+🎯 Constantly learning, problem solving, and building.
 
-Here are some ideas to get you started:
+- 🔧 Tech Stack: `Java`, `Spring Boot`, `React.js`, `MySQL`, `REST APIs`, `JUnit`
+- 📊 Solved 200+ DSA problems across LeetCode, GFG, HackerRank
+- 📌 Currently learning: `System Design`, `Deployment`, `Clean Architecture`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📫 Reach me at: [Email](mailto:vsushma0124@gmail.com) | [LinkedIn](https://linkedin.com/in/sushma-vaddepally-81709525a)  
+🛠️ Projects:
+- 🔗 [Online Banking App](https://github.com/SushmaVaddepally04/Banking-Application)
+- 🔗 [Expense Tracker](https://github.com/SushmaVaddepally04/Expenses-Tracker-Application)
+
+> "Code is like humor. When you have to explain it, it’s bad." – Cory House
