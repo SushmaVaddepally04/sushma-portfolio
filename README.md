@@ -1,10 +1,10 @@
 ### 👋 Hi there, I'm Sushma Vaddepally
 💻 Software Developer | Java • Spring Boot • React.js | REST APIs | Full-Stack
 
-🚀 I'm a Computer Science graduate passionate about backend development and clean code.  
+🚀 I'm a Computer Science graduate passionate about full stack development and clean code.  
 🎯 Constantly learning, problem solving, and building.
 
-- 🔧 Tech Stack: `Java`, `Spring Boot`, `React.js`, `MySQL`, `REST APIs`, `JUnit`
+- 🔧 Tech Stack: `Java`, `Spring Boot`, `React.js`, `MySQL`, `REST APIs`
 - 📊 Solved 200+ DSA problems across LeetCode, GFG, HackerRank
 - 📌 Currently learning: `System Design`, `Deployment`, `Clean Architecture`
 
