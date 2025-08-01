@@ -1,0 +1,200 @@
+.education-page {
+  padding: 50px 20px;
+  background-color: #bfc4c1;
+}
+
+/* Education Section */
+.education-section {
+  margin-bottom: 60px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #151716;
+}
+
+.education-timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.timeline-line {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: #131212;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.education-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+.education-item.left {
+  left: 0;
+  text-align: center;
+}
+
+.education-item.right {
+  left: 50%;
+  text-align: center;
+}
+
+.education-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.edu-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.education-content h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.education-content p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.education-content a {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.education-content a:hover {
+  text-decoration: underline;
+}
+
+/* Dot */
+.education-item::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #151716;
+  border: 4px solid #fff;
+  top: 30px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.education-item.left::before {
+  right: -8px;
+}
+
+.education-item.right::before {
+  left: -8px;
+}
+
+/* Certifications Section */
+.certification-section {
+  padding: 0.5rem;
+}
+
+.cert-title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #151716;
+}
+
+.cert-grid {
+  display: flex;
+  overflow-x: auto;
+  align-items:center;
+  padding: 20px;
+  gap: 16px;
+}
+
+.cert-grid::-webkit-scrollbar {
+  height: 4px;
+}
+
+.cert-grid::-webkit-scrollbar-thumb {
+  background-color: #454646;
+  border-radius: 10px;
+}
+
+.cert-card {
+  flex: 0 0 auto;
+  min-width: 20rem;
+  background: white;
+  padding: 36px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(21, 118, 26, 0.05);
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  color: #151716;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+}
+
+.cert-card h4 {
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+
+.cert-card p {
+  font-size: 0.85rem;
+  color:#333;
+}
+
+/* Animation */
+.slide-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 0.7s ease forwards;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 30rem) {
+  .education-item {
+    width: 100%;
+    left: 0 !important;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .timeline-line {
+    left: 10px;
+  }
+
+  .education-item::before {
+    left: -12px !important;
+    right: auto;
+  }
+}

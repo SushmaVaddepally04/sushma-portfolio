@@ -1,0 +1,128 @@
+.projects-container {
+  padding: 50px 20px;
+  background-color: #bfc4c1;
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #151716;
+}
+
+.projects-timeline {
+  position: relative;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 10px 0;
+}
+
+.projects-timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: #151716;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.project-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.project-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.project-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+.project-card {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.project-links a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 6px 12px;
+  background-color: #151716;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.project-links a:hover {
+  background-color: #005ec4;
+}
+
+.tech-stack {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Timeline dot */
+.project-item::before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  right: -9px;
+  background-color: #151716;
+  border: 4px solid #fff;
+  top: 24px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.project-item.right::before {
+  left: -9px;
+}
+
+/* Animation */
+.slide-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 0.8s ease forwards;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-item {
+    width: 100%;
+    left: 0 !important;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .projects-timeline::after {
+    left: 8px;
+  }
+
+  .project-item::before,
+  .project-item.right::before {
+    left: 0;
+    right: auto;
+  }
+}
