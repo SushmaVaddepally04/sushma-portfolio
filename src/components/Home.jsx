@@ -63,28 +63,38 @@ const Home = () => {
 
       <div className="skills-section">
         <h3 className="skills-title">What I’m Good At</h3>
-        <div className="skills-timeline">
-          <div className="skill-item left">
-            <div className="skill-img slide-left">
-              <img src={devIcon} alt="Development" />
-            </div>
-            <div className="skill-text slide-right">
-              <h4>Full Stack Development</h4>
-              <p>Building scalable frontend and backend systems using modern technologies.</p>
-            </div>
-          </div>
-
-          <div className="skill-item right">
-            <div className="skill-img slide-left">
-              <img src={dsaIcon} alt="DSA" />
-            </div>
-            <div className="skill-text slide-right">
-              <h4>Problem Solving</h4>
-              <p>Solving algorithmic challenges and optimizing code for performance.</p>
-            </div>
-          </div>
+        <div className="tech-stack">
+        <h4 className="tech-stack-title">Tech Stack</h4>
+        <div className="tech-icons">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />   
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
         </div>
+      </div>
+      <div className="skill-item">
+        <div className="skill-img slide-left">
+        <img src={devIcon} alt="Full Stack Development Icon" />
+        </div>
+        <div className="skill-text slide-right">
+        <h4>Full Stack Development</h4>
+        <p>Building scalable frontend and backend systems using modern technologies.</p>
+        </div>
+      </div>
 
+      <div className="skill-item">
+        <div className="skill-img slide-left">
+        <img src={dsaIcon} alt="Problem Solving Icon" />
+        </div>
+      <div className="skill-text slide-right">
+        <h4>Problem Solving</h4>
+        <p>Solving algorithmic challenges and optimizing code for performance.</p>
+      </div>
+    </div>
       </div>
     </div>
   );
