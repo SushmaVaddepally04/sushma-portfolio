@@ -24,7 +24,7 @@ const Home = () => {
           {/* Social Links Section */}
           <div className="home-socials">
             <a
-              href="https://github.com/SushmaVaddepally"
+              href="https://github.com/SushmaVaddepally04"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon"
@@ -35,7 +35,7 @@ const Home = () => {
               />
             </a>
             <a
-              href="https://leetcode.com/sushma_v/"
+              href="https://leetcode.com/u/SushmaVaddepally/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon"
