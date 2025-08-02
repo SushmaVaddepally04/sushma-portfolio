@@ -3,11 +3,10 @@
 /* Main container */
 .experience-container {
   max-width: 1200px;
-  
+  height:100vh;
   margin: auto;
   padding: 4rem 5rem;
   background-color: #bfc4c1;
-  margin-bottom:0;
 }
 
 /* Section heading */
