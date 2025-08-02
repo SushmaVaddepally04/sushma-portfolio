@@ -5,7 +5,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/sushma-portfolio">
+    <BrowserRouter basename="/sushma_portfolio">
       <App />
     </BrowserRouter>
   </StrictMode>
