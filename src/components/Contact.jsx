@@ -43,7 +43,7 @@ const Contact = () => {
         </a>
         <a
           href="mailto:sushmavaddepally84@gmail.com"
-          target="_blank"
+          target="mailto:sushmavaddepally84@gmail.com"
           rel="noopener noreferrer"
         >
           <img
