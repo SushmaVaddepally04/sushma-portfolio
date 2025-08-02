@@ -9,10 +9,10 @@ const Experience = () => {
         <div className="experience-item left">
           <div className="experience-content slide-left">
             <h3>Full Stack Developer Intern</h3>
-            <h4>ABC Tech Solutions</h4>
-            <p className="duration">Jan 2024 - Jun 2024</p>
+            <h4>Edvedha</h4>
+            <p className="duration">Jun 2024 - Nov 2024</p>
             <p>
-              Built and maintained full-stack applications using React, Node.js, and MongoDB.
+              Built and maintained full-stack applications using React, SpringBoot.
               Improved UI performance by 25% and collaborated with backend teams to develop scalable APIs.
             </p>
           </div>
