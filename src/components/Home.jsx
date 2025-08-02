@@ -46,17 +46,19 @@ const Home = () => {
               />
             </a>
           </div>
-            <div>
-                <a
+          <div className="home-socials">
+             <a
             href={resumePdf}
             download
             className="download-resume-btn"
           >
             Download Resume
           </a>
-            </div>
-          
+          </div>
         </div>
+        <div>
+                
+            </div>
       </div>
 
       <div className="skills-section">

@@ -80,6 +80,7 @@ body {
   color: white;
   padding: 10px 18px;
   border-radius: 6px;
+  
   text-decoration: none;
   transition: background 0.3s;
   margin-top: 10px;
@@ -144,7 +145,7 @@ body {
 .skill-img img {
   width: 15rem;
   height: 15rem;
-  border-radius: 50%;
+  border-radius: 10px;
   object-fit: cover;
 }
 
