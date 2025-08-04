@@ -77,22 +77,22 @@ const Home = () => {
         </div>
       </div>
       <div className="skill-item">
-        <div className="skill-img slide-left">
+        {/* <div className="skill-img slide-left">
         <img src={devIcon} alt="Full Stack Development Icon" />
-        </div>
+        </div> */}
         <div className="skill-text slide-right">
-        <h4>Full Stack Development</h4>
-        <p>Building scalable frontend and backend systems using modern technologies.</p>
+        <h3>Full Stack Development</h3>
+        <p>Building scalable and responsive frontend UI using ReactJs and backend systems using Java, SpringBoot Framework and MySQL Database .</p>
         </div>
       </div>
 
       <div className="skill-item">
-        <div className="skill-img slide-left">
+        {/* <div className="skill-img slide-left">
         <img src={dsaIcon} alt="Problem Solving Icon" />
-        </div>
+        </div> */}
       <div className="skill-text slide-right">
-        <h4>Problem Solving</h4>
-        <p>Solving algorithmic challenges and optimizing code for performance.</p>
+        <h3>Problem Solving</h3>
+        <p>Solving algorithmic challenges and optimizing code for performance using different data structures and algorithms.</p>
       </div>
     </div>
       </div>
